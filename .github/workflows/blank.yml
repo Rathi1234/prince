@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Jawahar Navodaya Vidyalaya</title>
+</head>
+<style>
+
+  #submit{
+    
+    background-color: indianred;
+  }
+#reset{
+  background-color: #2F527B
+}
+#radio{
+  color: red;
+}
+</style>
+<body>
+  <div>
+    <h2>
+      <p >Jawahar Navodaya Vidyalaya(shamli) <br>periodic test class=9th <br> subject=english
+    </h2>
+    <h6> Max mm.=10 <br>each question contains 2 marks</p style="border:2px red"
+    </h6>
+  </div>
+  <form action="google">
+    <label for="name"></label>
+    <div style="border:2px solid black">
+      <div>Name:<input type="text" name="my name"></div><br>
+      <label for="Roll no"></label>
+      <div>Roll no:<input type="text" name="my Roll no"></div><br>
+      <div>class:<input type="text" name="my class"></div><br>
+      <div>school name:<input type="text" name="my school name"></div><br>
+      <div>Mobile no:<input type="text" name="my mobile no" .></div><br>
+      <div>Email: <input type="email" name="my email" </div><br>
+        <div>Date:<input type="date" name="my date" />
+        </div><br>
+        <div>
+          Are you eligible?:<input type="checkbox" name="myEligibility" checked>
+        </div><br>
+        <div>
+          Gender: male <input type="radio" name="mygender"> Female <input type="radio" name="mygender">other <input type="radio" name="mygender" id="radio"></div><br>
+      </div>
+      <h3>:-all questions are compulsory </h3>
+      <p>
+        <div style="border:1px solid black;">
+          <strong> <p>Q1-who is t=he writer of chapter"The Fun They Had"?</p></strong> &nbsp; &nbsp; &nbsp;2*
+      </p>
+      a.Robert frost <input type="radio" name="myRobertfrost"><br>
+      b.Prince Rathi <input type="radio" name="myRobertfrost"><br>
+      c.Rudra Rathi <input type="radio" name="myRobertfrost"><br>
+      d.Rabindra nath tagore <input type="radio" name="myRobertfrost"><br>
+    </div><br>
+    <div style="border:1px solid black">
+      <p><strong>Q2-what is the synonym of "wind"?</strong>&nbsp; &nbsp; &nbsp;2*</p>
+      a.Water: <input type="radio" name="myAir"><br>
+      b.Pump: <input type="radio" name="myAir"><br>
+      c.Air: <input type="radio" name="myAir"><br>
+      d.oxygen: <input type="radio" name="myAir"><br>
+    </div><br>
+    <div style="border:1px solid black">
+      <p><strong>Q3-what is the verb form of "thought"? </strong>&nbsp; &nbsp; &nbsp;2*</p>
+      a.idea:<input type="radio" name="mythink"><br>
+      b.Thinling:<input type="radio" name="mythink"><br>
+      c.thoughts:<input type="radio" name="mythink"><br>
+      d.think:<input type="radio" name="mythink"><br>
+    </div><br>
+    <div style="border:1px solid black">
+      <p><strong>Q4-how many subjects margie and tommy learnt?</strong>&nbsp; &nbsp; &nbsp;2*</p>
+      a.1: <input type="radio" name="my4"><br>
+      b.2: <input type="radio" name="my4"><br>
+      c.3:<input type="radio" name="my4"><br>
+      d.4: <input type="radio" name="my4"><br>
+    </div><br>
+    <div style="border:1px solid black">
+      <p><strong>Q4-who is deaf in chapter "the sound of music"?</strong>&nbsp;2*</p>
+      a.Bismillah khan: <input type="radio" name="myEvelynGlennie"><br>
+      b.Evelyn's mother: <input type="radio" name="myEvelynGlennie"><br>
+      c.Evelyn Glennie: <input type="radio" mame="myEvelynGlennie"><br>
+      d.Rob wordth: <input type="radio" name="myEvelynGlennie"><br>
+    </div><br>
+    <div style="border:1px solid black">
+      <p><strong>Q5-who is a regular teacher?</strong>&nbsp;2*</p>
+      a.Human teacher: <input type="radio" name="myMechanicalteacher"><br>
+      b.Computer: <input type="radio" name="myMechanicalteacher"><br>
+      c.Student:<input type="radio" name="myMechanicalteacher"><br>
+      d.Mechanical teacher:<input type="radio" style="background: red"name="myMechanicalteacher"><br>
+    </div><br>
+    <div>
+      <h3><input type="submit" id="submit"></h3>
+      <h3><input type="reset" id="reset"></h3>
+    </div>
+  </form>
+  
+</body>
+
+</html>t.
